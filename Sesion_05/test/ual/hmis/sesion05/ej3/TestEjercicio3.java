@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 class TestEjercicio3 {
 
     @ParameterizedTest (name = "{index} => Enmascarar password {0} sale {1}")
-    @CsvFileSource(resources="/Ejercicio03.csv")
+    @CsvFileSource(resources="/Ejercicio3.csv")
 
     void testEjercicio3(String password, String resultado){
         // 1. Arrange 

@@ -10,7 +10,7 @@ class TestEjercicio1 {
 	@ParameterizedTest (name = "{index} => transformar ({0}) sale ({1})")
 	@CsvSource({"210,7"})
 	void test1(int numero, int resto) {
-		//Arrange
+		//Arrange-
 		Ejercicio1 e1 = new Ejercicio1();
 		//Act
 		int resultado = e1.transformar(numero);

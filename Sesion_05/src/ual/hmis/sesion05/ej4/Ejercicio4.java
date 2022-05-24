@@ -18,7 +18,7 @@ public class Ejercicio4 {
 		if(nota<0)
 			return "Error en la nota";
 		
-		if (nota >= 0 && nota < 5)
+		else if (nota >= 0 && nota < 5)
 			return "Suspenso";
 		
 		else if (nota >= 5.0 && nota < 7.0)

@@ -29,8 +29,8 @@ class TestEjercicio4 {
 
         private static Stream<Arguments> datosTest() {
             return Stream.of(
-                    Arguments.of(new double[]{-3.0, 2.0, 3.0, 5.0, 5.9, 8, 9.3, 10.0, 11}, 
-                    new String[]{"Error en la nota", "Suspenso", "Suspenso","Aprobado", "Aprobado", "Notable", "Sobresaliente","Matrícula","Error en la nota"})
+                    Arguments.of(new double[]{-3.0, 0.0, 2.0, 3.0, 5.0, 5.9, 8, 9.3, 10.0, 11}, 
+                    new String[]{"Error en la nota","Suspenso", "Suspenso", "Suspenso","Aprobado", "Aprobado", "Notable", "Sobresaliente","Matrícula","Error en la nota"})
            );
         }
     }
